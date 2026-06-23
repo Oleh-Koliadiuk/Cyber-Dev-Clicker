@@ -33,9 +33,12 @@ As total resource milestones are reached, the system automatically alters the us
 ## Deployment
 
 ### Prerequisites
-A modern runtime environment supporting HTML5 localized storage APIs, ES6 object methods, and DOM mutation query selectors.
+A modern runtime environment supporting HTML5 localized storage APIs, ES6 modules, and DOM mutation query selectors.
 
 ### File Architecture
 - `index.html` (Application Layout DOM Blueprint)
-- `style.css` (Presentation & Terminal Theme Layout)
-- `script.js` (State Machine & Automation Loop Engine)
+- `.gitignore` (Git exclusion configurations)
+- `style/style.css` (Presentation & Terminal Theme Layout)
+- `src/app.js` (Main Core Application Bootstrapper & Automation Loop)
+- `src/player.js` (Player State Machine & Progression Level Logic)
+- `src/storage.js` (Local Storage Persistence Layer API)
